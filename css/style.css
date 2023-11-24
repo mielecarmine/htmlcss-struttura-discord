@@ -66,3 +66,48 @@ ul li {
   min-width: 50%;
   min-height: 400px;
 }
+
+/* MAIN */
+
+.main-container {
+  background-color: #d3d3d3;
+
+  /* debug */
+  min-height: 1500px;
+  min-width: 100%;
+}
+
+.main-container div:nth-child(odd) {
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  /* debug */
+  min-height: 500px;
+  min-width: 100%;
+}
+
+/* debug */
+.container div {
+  border: 3px dashed black;
+  min-height: 400px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+.container div:first-child {
+  background-color: #1e90ff;
+  width: 30%;
+}
+
+.container div:last-child {
+  background-color: #ffc0cb;
+  width: 20%;
+}
