@@ -9,3 +9,60 @@
 img {
   max-width: 100%;
 }
+
+/* HEADER */
+
+.header {
+  background-color: #add8e6;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  /* debug */
+  min-height: 580px;
+}
+
+.navbar {
+  background-color: #daa520;
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin-top: 15px;
+  padding: 8px;
+
+  /* debug */
+  border: 3px dashed black;
+}
+
+.links {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-grow: 5;
+  align-items: center;
+  justify-content: center;
+}
+
+ul li {
+  margin: 3px;
+}
+
+.header > div {
+  background-color: #00008b;
+  margin-top: 15px;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pink-box {
+  background-color: #ee82ee;
+
+  /* debug */
+  border: 3px dashed black;
+  padding: 10px;
+  min-width: 50%;
+  min-height: 400px;
+}
