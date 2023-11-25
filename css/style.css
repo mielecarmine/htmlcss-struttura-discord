@@ -182,14 +182,31 @@ ul li {
 
 /* FOOTER */
 
-.div-container {
+.footer-container {
+  display: flex;
+  justify-content: center;
+  min-height: 80px;
+  margin-top: 2px;
+  background-color: #23272a;
+}
+
+.span-container {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  padding-top: 15px;
+  justify-content: space-between;
+  align-self: flex-end;
+  background-color: #7fffd4;
 
   /* debug */
-  height: 50px;
+  height: 60px;
   width: 50%;
+}
+
+.footer-button {
+  padding: 3px;
+
+  /* debug */
+  border: 3px dashed black;
+  background-color: #ffb6c1;
 }
